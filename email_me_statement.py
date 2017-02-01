@@ -10,7 +10,7 @@ def send_msg(msg, header=""):
 	else: 
 		msg["Subject"] = header
 	
-  me = "Your new email address "
+  	me = "Your new email address "
 	you = "Your email address"
 
 	msg["From"] = me
